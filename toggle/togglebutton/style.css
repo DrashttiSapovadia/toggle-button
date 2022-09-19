@@ -1,0 +1,67 @@
+.toggle 
+  {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 570px;
+    cursor: pointer;
+    position: relative;
+  }
+
+.circle 
+  {
+    width: 38px;
+    bottom: 0;
+    top: 0;
+    height: 38px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 1px;
+    margin-left: 1px;
+    position: relative;
+    /* transition: all 1s ease-out;   */
+  }
+
+.toggle-button
+  {
+    border: 2px solid white;
+  }
+
+.circle-button
+  {
+    position:relative;
+    left: 60px;
+    background-color: white;
+    /* transition: all 1s ease-out;      */
+  }
+  
+h1
+  { 
+    margin-left: 490px ;
+    margin-top: 50px;
+  }
+
+.btn
+  {
+    background-color: black;
+    color: white;
+  }
+
+p:nth-child(even)
+  {
+  background-color: black;
+  color: white;
+  }
+
+.evenafter
+  {
+  background-color: white !important;
+  color: black !important;
+  }
+
+#size
+  {
+  margin:50px
+  }
